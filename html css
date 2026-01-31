@@ -157,14 +157,17 @@ display: none; // Ẩn các phần tử hoàn toàn
 display: inline -block; // kết hợp giữa inline và block 
 6.4. Các thuộc tính postion
 postion: static; // tĩnh
-postion: absolute; // tuyệt đối
+postion: absolute; // tuyệt đối  có 2 phần tử cha và con 
 postion: relative; // tương đối có thể dùng các bên trái phải trên dưới 
-postion: fixed; // cố định
+postion: fixed; // cố định // ko di chuyển đc
 postion: sticky; // tương đối + cố định
 top: 1px; // trên
 right: 2px; // phải 
 left: 3px; // trái
 bottom: 10px; // dưới
+6.5. z-index
+Thiết lập sắp xếp trồng lên nhau của 1 thành phần vị trí 
+a đè lên b đè lên c
 
 7. JavaScript (Sử dụng câu lệnh node [tên_file].js)
 
