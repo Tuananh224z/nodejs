@@ -113,7 +113,7 @@ Cấu trúc: <tên_thẻ class="tên_class" id="tên_id" > <tên_thẻ />
 
 5. Mức độ ưu tiên trong CSS (Dùng trong ghi đè lại CSS)
 
-Inline CSS > External CSS > Internal CSS
+Inline CSS "Nội tuyến " > External CSS "" > Internal CSS "Nội bộ"
 
 Code máy sẽ đọc từ trên xuống dưới, nếu đoạn code phía dưới lặp lại thì nó sẽ ghi đè lại đoạn code ở phía trên
 
@@ -129,29 +129,42 @@ font-family: 'Courier New', Courier, monospace;
 font-weight: bold;
 line-height: 2;
 background-color: aqua;
+6.1.2.Phần text
+text - align : center // có nghĩa là căn tất cả chữ ra giữa
+left : căn trái
+right : căn phải 
+justify : căn đều 2 bên 
+uppercase : VIẾT HOA TẤT CẢ CHỮ CÁI 
+capitalize : Viết hoa chữ cái đầu
+Lowercase: Viết thường tất cả
 
 6.2. Các thuộc tính khoảng cách
 
-margin --> khoảng cách giữa các phần tử
+margin --> khoảng cách giữa các phần tử // lề
 padding --> bộ đệm trong phần tử
 border --> viền của phần tử
+border :
+"dotted : Đường viền chấm 
+dashed  : Đường viền nét đứt
+solid : Đường viền liền"
 
 6.3. Các thuộc tính display
-
-display: block;
+display: inline; // chiều dài của element đó bằng chiều dài của nội dung bên trong có nghĩa là text dài đến đâu thì nó dài đến đó
+display: block; // chiều rộng có thể kéo dài bên trái sang bên phải , cho phép đặt chiều rộng và chiều cao có nghĩa là khi đặt text nó sẽ full chiều ngang và phần tử mới luôn bắt đầu ở hàng mới
 display: flex;
 display: grid;
-
+display: none; // Ẩn các phần tử hoàn toàn
+display: inline -block; // kết hợp giữa inline và block 
 6.4. Các thuộc tính postion
-
-postion: absolute;
-postion: relative;
-postion: fixed;
-postion: sticky;
-top: 1px;
-right: 2px;
-left: 3px;
-bottom: 10px;
+postion: static; // tĩnh
+postion: absolute; // tuyệt đối
+postion: relative; // tương đối có thể dùng các bên trái phải trên dưới 
+postion: fixed; // cố định
+postion: sticky; // tương đối + cố định
+top: 1px; // trên
+right: 2px; // phải 
+left: 3px; // trái
+bottom: 10px; // dưới
 
 7. JavaScript (Sử dụng câu lệnh node [tên_file].js)
 
