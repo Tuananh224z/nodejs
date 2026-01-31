@@ -1,1 +1,167 @@
+# HTMLCSS
+HTML
+
+- là ngôn ngữ đánh dấu siêu văn bản 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Thẻ title -->
+    <h1></h1>
+    <h2></h2>
+    <h3></h3>
+    <h4></h4>
+    <h5></h5>
+    <h6></h6>
+
+    <!-- Thẻ image -->
+    <img src="" alt="">
+
+    <!-- Thẻ link -->
+    <a href=""></a>
+
+    <!-- Thẻ button -->
+    <button></button>
+
+    <!-- Thẻ input -->
+    <input type="text">
+
+    <!-- Thẻ span, div thường dùng đóng gói các thẻ khác -->
+    <div>
+        <input type="text">
+        <button></button>
+    </div>
+    <span></span>
+
+    <!-- Thẻ ul, li, ol, li dùng để list -->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <ol>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+
+    <!-- Thẻ p (văn bản) -->
+    <p></p>
+
+    <!-- Thẻ br (xuống dòng) -->
+    <br>
+
+    <!-- Thẻ table -->
+    <table border="1">
+        <tr>
+            <th>Họ và tên</th>
+            <th>Tuổi</th>
+            <th>Địa chỉ</th>
+        </tr>
+        <tr>
+            <td>Nguyễn Văn An</td>
+            <td>25</td>
+            <td>Hà Nội</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>  
+#CSS
+1. Các thẻ trong HTML? Tác dụng của các thẻ?
+
+2. Tại sao phải sử dụng thẻ p cho văn bản mà không dùng thẻ div. Trong khi thẻ div vẫn tạo ra văn bản?
+Trả lời: Mục đích phân biệt khi sử dụng các thẻ để chuẩn SEO (Search Engine Optimization)
+
+Kiến thức về SEO:
+Khi hosting (ra website thực tế có tên miền) thì làm sao để trang web của mình ở đầu hoặc thứ 2, thứ 3... của thứ hạng tìm kiếm
+Mục đích người dùng người ta search ra website của mình 
+
+Code website chuẩn SEO sẽ giúp website của mình tiếp cận được đến khách hàng thông qua tìm kiếm trên google
+
+3. Có mấy cách CSS?
+Trả lời:
+
+3 cách CSS
+- Cách 1: Internal CSS (Tạo thẻ <style>) 
+- Cách 2: External CSS (Sử dụng thẻ <link><link/> tham chiếu đến file .css) --> Được sử dụng nhiều nhất
+- Cách 3: Inline CSS (Tạo thuộc tính style trong thẻ HTML)
+
+4. Cú pháp code CSS (CSS Selectors)
+
+tên_thẻ {
+    ...css ở đây
+}
+
+.tên_class {
+    ...css ở đây
+}
+
+#tên_id {
+    ...css ở đây
+}
+
+Cấu trúc: <tên_thẻ class="tên_class" id="tên_id" > <tên_thẻ />
+
+5. Mức độ ưu tiên trong CSS (Dùng trong ghi đè lại CSS)
+
+Inline CSS > External CSS > Internal CSS
+
+Code máy sẽ đọc từ trên xuống dưới, nếu đoạn code phía dưới lặp lại thì nó sẽ ghi đè lại đoạn code ở phía trên
+
+!important > id > class > tag (thẻ)
+
+6. Các thuộc tính quan trọng hay dùng trong CSS
+
+6.1. Các thuộc tính cơ bản
+
+font-size: 16px;
+color: red;
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+line-height: 2;
+background-color: aqua;
+
+6.2. Các thuộc tính khoảng cách
+
+margin --> khoảng cách giữa các phần tử
+padding --> bộ đệm trong phần tử
+border --> viền của phần tử
+
+6.3. Các thuộc tính display
+
+display: block;
+display: flex;
+display: grid;
+
+6.4. Các thuộc tính postion
+
+postion: absolute;
+postion: relative;
+postion: fixed;
+postion: sticky;
+top: 1px;
+right: 2px;
+left: 3px;
+bottom: 10px;
+
+7. JavaScript (Sử dụng câu lệnh node [tên_file].js)
+
+Loop (Vòng lặp)
+Condition (Câu điều kiện)
+Operator (Toán tử)
+Object (Đối tượng) --> OOP
+
+8. Database
+
+  
+
 
